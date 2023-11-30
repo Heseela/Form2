@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+.main{
+    height: 100vh;
+    position: relative;   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(/Image/the-design-lady-wTleGS20QPY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+
+}
+
+.innerbox{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 1px 1px 10px black;
+    height: 500px;
+    width: 22%;
+    justify-content: center;
+   padding: 30px;
+}
+
+.login{
+    font-size: 32px;
+    font-weight: 600;
+    /* background-color: aqua; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aa{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+}
+
+.aa input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    height: 45px;
+font-size: 15px;
+}
+
+.forgot a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(57, 158, 252);
+    border: none;
+    color: white;
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    text-align: center;
+    
+}
+
+.fb{
+    display: flex;
+    background-color: rgb(0, 132, 255);
+    align-items: center;
+    height: 45px;
+    width: 48%;
+    justify-content: center;
+}
+
+.insta{
+    display: flex;
+    background-color: rgb(219, 51, 115);
+    align-items: center;
+    height: 45px;
+    width: 48%;
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+}
+
+.account{
+    display: flex;
+    /* background-color: aqua; */
+    font-size: 18px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.up a{
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+}
+
+/* responsive */
+
+@media (max-width: 420px)
+{
+    .main{
+        height: 700px;
+    }
+
+    .innerbox{
+        height: 500px;
+        width: 80%;
+       padding: 10px;
+    }
+
+    .login{
+        font-size: 28px;
+    }
+
+    .aa{
+        width: 100%;
+    }
+
+    .forgot a{
+        font-size: 15px;
+    }
+
+    .btn{
+        height: 40px;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .or{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .fb{
+        height: 40px;
+        width: 46%;
+        font-size: 16px;
+    }
+    
+    .insta{
+        height: 40px;
+        width: 46%;
+        font-size: 16px;
+    }
+
+    .account{
+        flex-direction: column;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+}
+}
